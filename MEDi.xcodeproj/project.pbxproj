@@ -3,31 +3,105 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F654459924B82C4C00B05682 /* Tutorial_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654459824B82C4C00B05682 /* Tutorial_1.swift */; };
+		E7BF08AB0C60273F7FF20F88 /* Pods_MEDiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C642F1D60AB136C5723A2 /* Pods_MEDiTests.framework */; };
+		EE402D59B36D159C4BB1C273 /* Pods_MEDi_MEDiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5C95E685261D65CA05FB41 /* Pods_MEDi_MEDiUITests.framework */; };
+		F60758DE24DACE2500BE61F2 /* showResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60758DD24DACE2500BE61F2 /* showResult.swift */; };
+		F60758E224DAD9F400BE61F2 /* Tutorial-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F60758DF24DAD9EC00BE61F2 /* Tutorial-3.png */; };
+		F60758E324DAD9F400BE61F2 /* Tutorial-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F60758E024DAD9F000BE61F2 /* Tutorial-2.png */; };
+		F60758E424DAD9F400BE61F2 /* Tutorial-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F60758E124DAD9F400BE61F2 /* Tutorial-1.png */; };
+		F61F4E8124C1C02400AF2C9E /* Home_Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F4E8024C1C02400AF2C9E /* Home_Phone.swift */; };
+		F61F4E8324C1C04D00AF2C9E /* Home_Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F4E8224C1C04D00AF2C9E /* Home_Pad.swift */; };
+		F621BC4A24D80F9300AE135A /* UserRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F621BC4924D80F9300AE135A /* UserRegister.swift */; };
+		F621BC4E24D80FB300AE135A /* saveUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F621BC4D24D80FB300AE135A /* saveUserData.swift */; };
+		F6299EF924D5C42D00935841 /* arrow_up.gif in Resources */ = {isa = PBXBuildFile; fileRef = F6299EF824D5C42D00935841 /* arrow_up.gif */; };
+		F6299EFB24D5D41000935841 /* MaskTODO_Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6299EFA24D5D41000935841 /* MaskTODO_Finish.swift */; };
+		F6299EFF24D5D87C00935841 /* cute_baby.png in Resources */ = {isa = PBXBuildFile; fileRef = F6299EFE24D5D87C00935841 /* cute_baby.png */; };
+		F6299F0324D5D90F00935841 /* MaskTODO_FinishAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6299F0224D5D90F00935841 /* MaskTODO_FinishAR.swift */; };
+		F63A0AA924D5316A0027D52C /* NoseDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0AA824D5316A0027D52C /* NoseDetection.swift */; };
+		F63A0AAB24D533440027D52C /* scaleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0AAA24D533440027D52C /* scaleImage.swift */; };
+		F63A0AAD24D535250027D52C /* ARNoseDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A0AAC24D535250027D52C /* ARNoseDetection.swift */; };
+		F63B97F724C96C85002728DC /* Buy_Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63B97F624C96C85002728DC /* Buy_Cash.swift */; };
+		F63D756824DDCEFE0075BCBF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63D756724DDCEFE0075BCBF /* AVKit.framework */; };
+		F642156F24ED275E000EACEB /* TODO.png in Resources */ = {isa = PBXBuildFile; fileRef = F642156D24ED2759000EACEB /* TODO.png */; };
+		F642157024ED275E000EACEB /* HOWTO.png in Resources */ = {isa = PBXBuildFile; fileRef = F642156E24ED275E000EACEB /* HOWTO.png */; };
+		F643F89B24D85149005DC6E9 /* mask_intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F89A24D85149005DC6E9 /* mask_intro.mp3 */; };
+		F643F8A024D852CF005DC6E9 /* MaskTODO_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F89C24D852C2005DC6E9 /* MaskTODO_2.mp3 */; };
+		F643F8A124D852CF005DC6E9 /* maskTODO_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F89D24D852C6005DC6E9 /* maskTODO_1.mp3 */; };
+		F643F8A224D852CF005DC6E9 /* mask_final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F89E24D852CA005DC6E9 /* mask_final.mp3 */; };
+		F643F8A324D852CF005DC6E9 /* MaskTODO_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F89F24D852CF005DC6E9 /* MaskTODO_3.mp3 */; };
+		F643F8A524D8534D005DC6E9 /* retry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F8A424D8534D005DC6E9 /* retry.mp3 */; };
+		F643F8A724D85422005DC6E9 /* Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F643F8A624D85422005DC6E9 /* Start.mp3 */; };
+		F6471EAF24C1FF49009AE8A6 /* PromoteForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471EAE24C1FF49009AE8A6 /* PromoteForm.swift */; };
+		F6471EB324C20AC3009AE8A6 /* Bandage_start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471EB224C20AC3009AE8A6 /* Bandage_start.swift */; };
+		F6471EB524C20ACB009AE8A6 /* Bandage_select.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471EB424C20ACB009AE8A6 /* Bandage_select.swift */; };
+		F6471EB824C20ADE009AE8A6 /* HandSanitizer_start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471EB724C20ADE009AE8A6 /* HandSanitizer_start.swift */; };
+		F6471EBA24C20AE8009AE8A6 /* HandSanitizer_select.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471EB924C20AE8009AE8A6 /* HandSanitizer_select.swift */; };
+		F64D1A2F24DAF64D00461B8F /* getUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D1A2E24DAF64D00461B8F /* getUserData.swift */; };
 		F654459C24B82EBE00B05682 /* Tutorial_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654459B24B82EBE00B05682 /* Tutorial_2.swift */; };
 		F654459E24B8307200B05682 /* Tutorial_Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654459D24B8307200B05682 /* Tutorial_Finish.swift */; };
-		F65445A024B8310D00B05682 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654459F24B8310D00B05682 /* Home.swift */; };
-		F65445A424B83C1C00B05682 /* Thermometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65445A324B83C1C00B05682 /* Thermometer.swift */; };
-		F65445A624B83CCF00B05682 /* Thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = F65445A524B83CCF00B05682 /* Thermometer.png */; };
+		F65445A424B83C1C00B05682 /* Thermometer_start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65445A324B83C1C00B05682 /* Thermometer_start.swift */; };
 		F65445A924BB758500B05682 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = F65445A724BB758500B05682 /* sun.png */; };
 		F65445AA24BB758500B05682 /* shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = F65445A824BB758500B05682 /* shopping-cart.png */; };
+		F6589CBF24EBC3B20060E3D1 /* PrepareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6589CBE24EBC3B20060E3D1 /* PrepareService.swift */; };
+		F65A47AF24D2F3FA007C4A74 /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A47AE24D2F3FA007C4A74 /* VirtualContent.swift */; };
+		F65C76C624DE974D00F33215 /* start_Bandage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F65C76C524DE974D00F33215 /* start_Bandage.mp3 */; };
+		F65C76C824DE976900F33215 /* Intro_HandSanitizer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F65C76C724DE976900F33215 /* Intro_HandSanitizer.mp3 */; };
+		F667B53D24BEDC4F006E8B3F /* Mask_select.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667B53C24BEDC4F006E8B3F /* Mask_select.swift */; };
 		F672F79624B018E40050DA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F79524B018E40050DA25 /* AppDelegate.swift */; };
 		F672F79824B018E40050DA25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F79724B018E40050DA25 /* SceneDelegate.swift */; };
-		F672F79A24B018E40050DA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F79924B018E40050DA25 /* ContentView.swift */; };
+		F672F79A24B018E40050DA25 /* Tutorial_Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F79924B018E40050DA25 /* Tutorial_Start.swift */; };
 		F672F79C24B018E50050DA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F672F79B24B018E50050DA25 /* Assets.xcassets */; };
 		F672F79F24B018E50050DA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F672F79E24B018E50050DA25 /* Preview Assets.xcassets */; };
 		F672F7A224B018E50050DA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F672F7A024B018E50050DA25 /* LaunchScreen.storyboard */; };
 		F672F7AD24B018E50050DA25 /* MEDiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F7AC24B018E50050DA25 /* MEDiTests.swift */; };
 		F672F7B824B018E50050DA25 /* MEDiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672F7B724B018E50050DA25 /* MEDiUITests.swift */; };
+		F6740B9B24C35A2400FE5EA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6740B9A24C35A2400FE5EA8 /* GoogleService-Info.plist */; };
+		F67AA00424D2B69D00EE3B8D /* MaskTODO_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67AA00324D2B69D00EE3B8D /* MaskTODO_1.swift */; };
+		F67B7FBB24D536D700F1B246 /* MaskTODO_NoseDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B7FBA24D536D700F1B246 /* MaskTODO_NoseDetect.swift */; };
+		F68DB58F24C5736C00E6F1E2 /* ic_handsanitizer_large.png in Resources */ = {isa = PBXBuildFile; fileRef = F68DB58E24C5736C00E6F1E2 /* ic_handsanitizer_large.png */; };
+		F68DB59124C57BB400E6F1E2 /* Buy_Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DB59024C57BB400E6F1E2 /* Buy_Family.swift */; };
+		F68DB59324C57BBD00E6F1E2 /* Buy_Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DB59224C57BBD00E6F1E2 /* Buy_Person.swift */; };
+		F68E35CD24D9594600AAC74D /* checkPayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E35CC24D9594600AAC74D /* checkPayResult.swift */; };
+		F68E35CF24D9660800AAC74D /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E35CE24D9660800AAC74D /* ResetPassword.swift */; };
+		F68E35D124D96EF700AAC74D /* checkCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E35D024D96EF700AAC74D /* checkCode.swift */; };
+		F69379B824C757B5000CD719 /* Buy_Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69379B724C757B5000CD719 /* Buy_Success.swift */; };
+		F6A5606024D8469B00367FDA /* Tutorial_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A5605924D8468500367FDA /* Tutorial_2.mp3 */; };
+		F6A5606524D8469B00367FDA /* Tutorial_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A5605F24D8469B00367FDA /* Tutorial_1.mp3 */; };
+		F6A5606F24D8470300367FDA /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A5606E24D8470300367FDA /* audioPlayer.swift */; };
+		F6A5607124D84AA300367FDA /* Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A5607024D84AA300367FDA /* Home.mp3 */; };
+		F6A5607324D84AB000367FDA /* finish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A5607224D84AB000367FDA /* finish.mp3 */; };
+		F6A5607524D84AB900367FDA /* Tutorial_Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A5607424D84AB900367FDA /* Tutorial_Start.mp3 */; };
+		F6AC765324C7E43C00322A10 /* ic_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AC765224C7E43C00322A10 /* ic_heart.png */; };
+		F6AC765524C7E4D000322A10 /* bg_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AC765424C7E4D000322A10 /* bg_heart.png */; };
+		F6AC765824C7E61300322A10 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC765724C7E61300322A10 /* Feedback.swift */; };
+		F6AC765A24C7E8B400322A10 /* ic_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AC765924C7E8B400322A10 /* ic_bad.png */; };
+		F6AC765C24C7EBF400322A10 /* KeyboardResponser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC765B24C7EBF400322A10 /* KeyboardResponser.swift */; };
+		F6AEB68524D1574300DC4B89 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AEB68424D1574300DC4B89 /* Models.scnassets */; };
+		F6AEB6CB24D1828400DC4B89 /* Mask_TODO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AEB6CA24D1828400DC4B89 /* Mask_TODO.storyboard */; };
+		F6AEB6CD24D1831F00DC4B89 /* ARSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AEB6CC24D1831F00DC4B89 /* ARSessionController.swift */; };
+		F6B855B724D0500400FA2E5B /* ic_kakaopay.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B855B624D0500400FA2E5B /* ic_kakaopay.png */; };
+		F6B855BB24D07ED600FA2E5B /* checkPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B855BA24D07ED600FA2E5B /* checkPay.swift */; };
+		F6C4695F24D482BB000DCC91 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4695E24D482BB000DCC91 /* ImagePicker.swift */; };
+		F6C8F3BE24C02D0600F04F01 /* ic_buyPromote.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C8F3BD24C02D0600F04F01 /* ic_buyPromote.png */; };
+		F6D07D8D24D2CD1F005036DE /* MaskRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D07D8C24D2CD1F005036DE /* MaskRenderer.swift */; };
 		F6D54FBE24B4D24400907A30 /* maplestory_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6D54FBD24B4D23B00907A30 /* maplestory_bold.otf */; };
 		F6D54FBF24B4D24700907A30 /* maplestory_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6D54FBC24B4D23B00907A30 /* maplestory_light.otf */; };
 		F6D54FC424B4D40A00907A30 /* kids_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D54FC124B4D40A00907A30 /* kids_1.png */; };
 		F6D54FC524B4D40A00907A30 /* kids_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D54FC224B4D40A00907A30 /* kids_2.png */; };
 		F6D54FC624B4D40A00907A30 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D54FC324B4D40A00907A30 /* clock.png */; };
+		F6D5CF1324BD96B100ABC036 /* ic_thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D5CF0F24BD96B100ABC036 /* ic_thermometer.png */; };
+		F6D5CF1424BD96B100ABC036 /* ic_bandage.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D5CF1024BD96B100ABC036 /* ic_bandage.png */; };
+		F6D5CF1524BD96B100ABC036 /* ic_handsanitizer.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D5CF1124BD96B100ABC036 /* ic_handsanitizer.png */; };
+		F6D5CF1624BD96B100ABC036 /* ic_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D5CF1224BD96B100ABC036 /* ic_mask.png */; };
+		F6D5CF1C24BDA76B00ABC036 /* Tutorial_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CF1B24BDA76B00ABC036 /* Tutorial_1.swift */; };
+		F6D5CF1F24BDB27C00ABC036 /* Mask_start.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CF1E24BDB27C00ABC036 /* Mask_start.swift */; };
+		F6D5CF2124BDC26500ABC036 /* Thermometer_select.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CF2024BDC26500ABC036 /* Thermometer_select.swift */; };
+		F6D5CF2324BDC69000ABC036 /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5CF2224BDC69000ABC036 /* Buy.swift */; };
+		FB6E28750A1D60178BFBB775 /* Pods_MEDi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A362342028B72A7DD94BCCD /* Pods_MEDi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,18 +122,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F654459824B82C4C00B05682 /* Tutorial_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_1.swift; sourceTree = "<group>"; };
+		19A3FB8B2E682FA994F713D5 /* Pods-MEDiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDiTests.release.xcconfig"; path = "Target Support Files/Pods-MEDiTests/Pods-MEDiTests.release.xcconfig"; sourceTree = "<group>"; };
+		6580BC13E03E8873E7A9B06A /* Pods-MEDi-MEDiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDi-MEDiUITests.debug.xcconfig"; path = "Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67DB73F2D567CB7DC7DB7A53 /* Pods-MEDi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDi.debug.xcconfig"; path = "Target Support Files/Pods-MEDi/Pods-MEDi.debug.xcconfig"; sourceTree = "<group>"; };
+		6A362342028B72A7DD94BCCD /* Pods_MEDi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5C95E685261D65CA05FB41 /* Pods_MEDi_MEDiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDi_MEDiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C642F1D60AB136C5723A2 /* Pods_MEDiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95A01DAB6C0167BB9F33623 /* Pods-MEDi-MEDiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDi-MEDiUITests.release.xcconfig"; path = "Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D51280670F136FA30BBA9411 /* Pods-MEDi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDi.release.xcconfig"; path = "Target Support Files/Pods-MEDi/Pods-MEDi.release.xcconfig"; sourceTree = "<group>"; };
+		E4DE74007603FF4620733F79 /* Pods-MEDiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDiTests.debug.xcconfig"; path = "Target Support Files/Pods-MEDiTests/Pods-MEDiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F60758DD24DACE2500BE61F2 /* showResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showResult.swift; sourceTree = "<group>"; };
+		F60758DF24DAD9EC00BE61F2 /* Tutorial-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tutorial-3.png"; sourceTree = "<group>"; };
+		F60758E024DAD9F000BE61F2 /* Tutorial-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tutorial-2.png"; sourceTree = "<group>"; };
+		F60758E124DAD9F400BE61F2 /* Tutorial-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tutorial-1.png"; sourceTree = "<group>"; };
+		F61F4E8024C1C02400AF2C9E /* Home_Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Phone.swift; sourceTree = "<group>"; };
+		F61F4E8224C1C04D00AF2C9E /* Home_Pad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Pad.swift; sourceTree = "<group>"; };
+		F621BC4924D80F9300AE135A /* UserRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegister.swift; sourceTree = "<group>"; };
+		F621BC4D24D80FB300AE135A /* saveUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveUserData.swift; sourceTree = "<group>"; };
+		F6299EF824D5C42D00935841 /* arrow_up.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arrow_up.gif; sourceTree = "<group>"; };
+		F6299EFA24D5D41000935841 /* MaskTODO_Finish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTODO_Finish.swift; sourceTree = "<group>"; };
+		F6299EFE24D5D87C00935841 /* cute_baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cute_baby.png; path = ../../../../../../cute_baby.png; sourceTree = "<group>"; };
+		F6299F0224D5D90F00935841 /* MaskTODO_FinishAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTODO_FinishAR.swift; sourceTree = "<group>"; };
+		F63A0AA824D5316A0027D52C /* NoseDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoseDetection.swift; sourceTree = "<group>"; };
+		F63A0AAA24D533440027D52C /* scaleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scaleImage.swift; sourceTree = "<group>"; };
+		F63A0AAC24D535250027D52C /* ARNoseDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARNoseDetection.swift; sourceTree = "<group>"; };
+		F63B97F624C96C85002728DC /* Buy_Cash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Cash.swift; sourceTree = "<group>"; };
+		F63D756724DDCEFE0075BCBF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F642156D24ED2759000EACEB /* TODO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TODO.png; sourceTree = "<group>"; };
+		F642156E24ED275E000EACEB /* HOWTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HOWTO.png; sourceTree = "<group>"; };
+		F643F89A24D85149005DC6E9 /* mask_intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mask_intro.mp3; sourceTree = "<group>"; };
+		F643F89C24D852C2005DC6E9 /* MaskTODO_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MaskTODO_2.mp3; sourceTree = "<group>"; };
+		F643F89D24D852C6005DC6E9 /* maskTODO_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maskTODO_1.mp3; sourceTree = "<group>"; };
+		F643F89E24D852CA005DC6E9 /* mask_final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mask_final.mp3; sourceTree = "<group>"; };
+		F643F89F24D852CF005DC6E9 /* MaskTODO_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MaskTODO_3.mp3; sourceTree = "<group>"; };
+		F643F8A424D8534D005DC6E9 /* retry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = retry.mp3; sourceTree = "<group>"; };
+		F643F8A624D85422005DC6E9 /* Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Start.mp3; sourceTree = "<group>"; };
+		F6471EAE24C1FF49009AE8A6 /* PromoteForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoteForm.swift; sourceTree = "<group>"; };
+		F6471EB224C20AC3009AE8A6 /* Bandage_start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandage_start.swift; sourceTree = "<group>"; };
+		F6471EB424C20ACB009AE8A6 /* Bandage_select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandage_select.swift; sourceTree = "<group>"; };
+		F6471EB724C20ADE009AE8A6 /* HandSanitizer_start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSanitizer_start.swift; sourceTree = "<group>"; };
+		F6471EB924C20AE8009AE8A6 /* HandSanitizer_select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSanitizer_select.swift; sourceTree = "<group>"; };
+		F64D1A2E24DAF64D00461B8F /* getUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getUserData.swift; sourceTree = "<group>"; };
 		F654459B24B82EBE00B05682 /* Tutorial_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_2.swift; sourceTree = "<group>"; };
 		F654459D24B8307200B05682 /* Tutorial_Finish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Finish.swift; sourceTree = "<group>"; };
-		F654459F24B8310D00B05682 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		F65445A324B83C1C00B05682 /* Thermometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermometer.swift; sourceTree = "<group>"; };
-		F65445A524B83CCF00B05682 /* Thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thermometer.png; sourceTree = "<group>"; };
+		F65445A324B83C1C00B05682 /* Thermometer_start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermometer_start.swift; sourceTree = "<group>"; };
 		F65445A724BB758500B05682 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		F65445A824BB758500B05682 /* shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart.png"; sourceTree = "<group>"; };
+		F6589CBE24EBC3B20060E3D1 /* PrepareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareService.swift; sourceTree = "<group>"; };
+		F65A47AE24D2F3FA007C4A74 /* VirtualContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
+		F65C76C524DE974D00F33215 /* start_Bandage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start_Bandage.mp3; sourceTree = "<group>"; };
+		F65C76C724DE976900F33215 /* Intro_HandSanitizer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Intro_HandSanitizer.mp3; sourceTree = "<group>"; };
+		F667B53C24BEDC4F006E8B3F /* Mask_select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_select.swift; sourceTree = "<group>"; };
 		F672F79224B018E40050DA25 /* MEDi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEDi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F672F79524B018E40050DA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F672F79724B018E40050DA25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F672F79924B018E40050DA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F672F79924B018E40050DA25 /* Tutorial_Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Start.swift; sourceTree = "<group>"; };
 		F672F79B24B018E50050DA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F672F79E24B018E50050DA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F672F7A124B018E50050DA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,11 +187,48 @@
 		F672F7B324B018E50050DA25 /* MEDiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEDiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F672F7B724B018E50050DA25 /* MEDiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDiUITests.swift; sourceTree = "<group>"; };
 		F672F7B924B018E50050DA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6740B9A24C35A2400FE5EA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F67AA00324D2B69D00EE3B8D /* MaskTODO_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTODO_1.swift; sourceTree = "<group>"; };
+		F67B7FBA24D536D700F1B246 /* MaskTODO_NoseDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTODO_NoseDetect.swift; sourceTree = "<group>"; };
+		F68DB58E24C5736C00E6F1E2 /* ic_handsanitizer_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_handsanitizer_large.png; sourceTree = "<group>"; };
+		F68DB59024C57BB400E6F1E2 /* Buy_Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Family.swift; sourceTree = "<group>"; };
+		F68DB59224C57BBD00E6F1E2 /* Buy_Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Person.swift; sourceTree = "<group>"; };
+		F68E35CC24D9594600AAC74D /* checkPayResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkPayResult.swift; sourceTree = "<group>"; };
+		F68E35CE24D9660800AAC74D /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		F68E35D024D96EF700AAC74D /* checkCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkCode.swift; sourceTree = "<group>"; };
+		F69379B724C757B5000CD719 /* Buy_Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Success.swift; sourceTree = "<group>"; };
+		F6A5605924D8468500367FDA /* Tutorial_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tutorial_2.mp3; sourceTree = "<group>"; };
+		F6A5605F24D8469B00367FDA /* Tutorial_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tutorial_1.mp3; sourceTree = "<group>"; };
+		F6A5606E24D8470300367FDA /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
+		F6A5607024D84AA300367FDA /* Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Home.mp3; sourceTree = "<group>"; };
+		F6A5607224D84AB000367FDA /* finish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finish.mp3; sourceTree = "<group>"; };
+		F6A5607424D84AB900367FDA /* Tutorial_Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tutorial_Start.mp3; sourceTree = "<group>"; };
+		F6AC765224C7E43C00322A10 /* ic_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_heart.png; sourceTree = "<group>"; };
+		F6AC765424C7E4D000322A10 /* bg_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_heart.png; sourceTree = "<group>"; };
+		F6AC765724C7E61300322A10 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		F6AC765924C7E8B400322A10 /* ic_bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bad.png; sourceTree = "<group>"; };
+		F6AC765B24C7EBF400322A10 /* KeyboardResponser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponser.swift; sourceTree = "<group>"; };
+		F6AEB68424D1574300DC4B89 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		F6AEB6CA24D1828400DC4B89 /* Mask_TODO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mask_TODO.storyboard; sourceTree = "<group>"; };
+		F6AEB6CC24D1831F00DC4B89 /* ARSessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionController.swift; sourceTree = "<group>"; };
+		F6B855B624D0500400FA2E5B /* ic_kakaopay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_kakaopay.png; sourceTree = "<group>"; };
+		F6B855BA24D07ED600FA2E5B /* checkPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkPay.swift; sourceTree = "<group>"; };
+		F6C4695E24D482BB000DCC91 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F6C8F3BD24C02D0600F04F01 /* ic_buyPromote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_buyPromote.png; sourceTree = "<group>"; };
+		F6D07D8C24D2CD1F005036DE /* MaskRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRenderer.swift; sourceTree = "<group>"; };
 		F6D54FBC24B4D23B00907A30 /* maplestory_light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = maplestory_light.otf; sourceTree = "<group>"; };
 		F6D54FBD24B4D23B00907A30 /* maplestory_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = maplestory_bold.otf; sourceTree = "<group>"; };
 		F6D54FC124B4D40A00907A30 /* kids_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kids_1.png; sourceTree = "<group>"; };
 		F6D54FC224B4D40A00907A30 /* kids_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kids_2.png; sourceTree = "<group>"; };
 		F6D54FC324B4D40A00907A30 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		F6D5CF0F24BD96B100ABC036 /* ic_thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_thermometer.png; sourceTree = "<group>"; };
+		F6D5CF1024BD96B100ABC036 /* ic_bandage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bandage.png; sourceTree = "<group>"; };
+		F6D5CF1124BD96B100ABC036 /* ic_handsanitizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_handsanitizer.png; sourceTree = "<group>"; };
+		F6D5CF1224BD96B100ABC036 /* ic_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mask.png; sourceTree = "<group>"; };
+		F6D5CF1B24BDA76B00ABC036 /* Tutorial_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_1.swift; sourceTree = "<group>"; };
+		F6D5CF1E24BDB27C00ABC036 /* Mask_start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_start.swift; sourceTree = "<group>"; };
+		F6D5CF2024BDC26500ABC036 /* Thermometer_select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermometer_select.swift; sourceTree = "<group>"; };
+		F6D5CF2224BDC69000ABC036 /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +236,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6E28750A1D60178BFBB775 /* Pods_MEDi.framework in Frameworks */,
+				F63D756824DDCEFE0075BCBF /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BF08AB0C60273F7FF20F88 /* Pods_MEDiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +253,130 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE402D59B36D159C4BB1C273 /* Pods_MEDi_MEDiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F8C14BC2749A44D18243F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63D756724DDCEFE0075BCBF /* AVKit.framework */,
+				6A362342028B72A7DD94BCCD /* Pods_MEDi.framework */,
+				6A5C95E685261D65CA05FB41 /* Pods_MEDi_MEDiUITests.framework */,
+				AC9C642F1D60AB136C5723A2 /* Pods_MEDiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA008DBD38A9C2639C296DD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67DB73F2D567CB7DC7DB7A53 /* Pods-MEDi.debug.xcconfig */,
+				D51280670F136FA30BBA9411 /* Pods-MEDi.release.xcconfig */,
+				6580BC13E03E8873E7A9B06A /* Pods-MEDi-MEDiUITests.debug.xcconfig */,
+				B95A01DAB6C0167BB9F33623 /* Pods-MEDi-MEDiUITests.release.xcconfig */,
+				E4DE74007603FF4620733F79 /* Pods-MEDiTests.debug.xcconfig */,
+				19A3FB8B2E682FA994F713D5 /* Pods-MEDiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F60ABDC924D7F9D50050C5A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5CF2224BDC69000ABC036 /* Buy.swift */,
+				F6471EAE24C1FF49009AE8A6 /* PromoteForm.swift */,
+				F68DB59024C57BB400E6F1E2 /* Buy_Family.swift */,
+				F68DB59224C57BBD00E6F1E2 /* Buy_Person.swift */,
+				F69379B724C757B5000CD719 /* Buy_Success.swift */,
+				F63B97F624C96C85002728DC /* Buy_Cash.swift */,
+				F6B855BA24D07ED600FA2E5B /* checkPay.swift */,
+				F6C4695E24D482BB000DCC91 /* ImagePicker.swift */,
+				F68E35CE24D9660800AAC74D /* ResetPassword.swift */,
+				F60758DD24DACE2500BE61F2 /* showResult.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F621BC4824D80F8500AE135A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F621BC4924D80F9300AE135A /* UserRegister.swift */,
+				F621BC4D24D80FB300AE135A /* saveUserData.swift */,
+				F68E35CC24D9594600AAC74D /* checkPayResult.swift */,
+				F68E35D024D96EF700AAC74D /* checkCode.swift */,
+				F64D1A2E24DAF64D00461B8F /* getUserData.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F643F89924D85117005DC6E9 /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				F643F89A24D85149005DC6E9 /* mask_intro.mp3 */,
+				F643F89E24D852CA005DC6E9 /* mask_final.mp3 */,
+				F643F89D24D852C6005DC6E9 /* maskTODO_1.mp3 */,
+				F643F89C24D852C2005DC6E9 /* MaskTODO_2.mp3 */,
+				F643F89F24D852CF005DC6E9 /* MaskTODO_3.mp3 */,
+				F643F8A424D8534D005DC6E9 /* retry.mp3 */,
+			);
+			path = Mask;
+			sourceTree = "<group>";
+		};
+		F6471EB024C1FF50009AE8A6 /* Promote */ = {
+			isa = PBXGroup;
+			children = (
+				F621BC4824D80F8500AE135A /* Helper */,
+				F60ABDC924D7F9D50050C5A3 /* View */,
+			);
+			path = Promote;
+			sourceTree = "<group>";
+		};
+		F6471EB124C20AB5009AE8A6 /* Bandage */ = {
+			isa = PBXGroup;
+			children = (
+				F6471EB224C20AC3009AE8A6 /* Bandage_start.swift */,
+				F6471EB424C20ACB009AE8A6 /* Bandage_select.swift */,
+			);
+			path = Bandage;
+			sourceTree = "<group>";
+		};
+		F6471EB624C20ACF009AE8A6 /* HandSanitizer */ = {
+			isa = PBXGroup;
+			children = (
+				F6471EB724C20ADE009AE8A6 /* HandSanitizer_start.swift */,
+				F6471EB924C20AE8009AE8A6 /* HandSanitizer_select.swift */,
+			);
+			path = HandSanitizer;
+			sourceTree = "<group>";
+		};
+		F65C76C324DE96C100F33215 /* HandSanitizer */ = {
+			isa = PBXGroup;
+			children = (
+				F65C76C724DE976900F33215 /* Intro_HandSanitizer.mp3 */,
+			);
+			name = HandSanitizer;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		F65C76C424DE96CA00F33215 /* Bandage */ = {
+			isa = PBXGroup;
+			children = (
+				F65C76C524DE974D00F33215 /* start_Bandage.mp3 */,
+			);
+			path = Bandage;
+			sourceTree = "<group>";
+		};
+		F667B53E24BEDD50006E8B3F /* How-TO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "How-TO";
+			sourceTree = "<group>";
+		};
 		F672F78924B018E40050DA25 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +384,8 @@
 				F672F7AB24B018E50050DA25 /* MEDiTests */,
 				F672F7B624B018E50050DA25 /* MEDiUITests */,
 				F672F79324B018E40050DA25 /* Products */,
+				DA008DBD38A9C2639C296DD9 /* Pods */,
+				7F8C14BC2749A44D18243F92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,20 +402,29 @@
 		F672F79424B018E40050DA25 /* MEDi */ = {
 			isa = PBXGroup;
 			children = (
+				F6A5605724D845E500367FDA /* audio */,
+				F6740B9A24C35A2400FE5EA8 /* GoogleService-Info.plist */,
+				F6471EB624C20ACF009AE8A6 /* HandSanitizer */,
+				F6471EB124C20AB5009AE8A6 /* Bandage */,
+				F6D5CF1D24BDB26F00ABC036 /* Mask */,
 				F6D54FC024B4D3F200907A30 /* Images */,
 				F6D54FBB24B4D23600907A30 /* Fonts */,
 				F672F79524B018E40050DA25 /* AppDelegate.swift */,
-				F654459824B82C4C00B05682 /* Tutorial_1.swift */,
-				F654459D24B8307200B05682 /* Tutorial_Finish.swift */,
-				F654459B24B82EBE00B05682 /* Tutorial_2.swift */,
 				F672F79724B018E40050DA25 /* SceneDelegate.swift */,
-				F654459F24B8310D00B05682 /* Home.swift */,
-				F672F79924B018E40050DA25 /* ContentView.swift */,
-				F65445A324B83C1C00B05682 /* Thermometer.swift */,
+				F61F4E8024C1C02400AF2C9E /* Home_Phone.swift */,
+				F61F4E8224C1C04D00AF2C9E /* Home_Pad.swift */,
+				F6D5CF0D24BD935300ABC036 /* Tutorial */,
+				F6AC765624C7E5FA00322A10 /* Feedback */,
+				F6471EB024C1FF50009AE8A6 /* Promote */,
+				F6D5CF0E24BD937700ABC036 /* Thermometer */,
 				F672F79B24B018E50050DA25 /* Assets.xcassets */,
+				F6AEB68424D1574300DC4B89 /* Models.scnassets */,
 				F672F7A024B018E50050DA25 /* LaunchScreen.storyboard */,
 				F672F7A324B018E50050DA25 /* Info.plist */,
 				F672F79D24B018E50050DA25 /* Preview Content */,
+				F6AC765B24C7EBF400322A10 /* KeyboardResponser.swift */,
+				F6A5606E24D8470300367FDA /* audioPlayer.swift */,
+				F6589CBE24EBC3B20060E3D1 /* PrepareService.swift */,
 			);
 			path = MEDi;
 			sourceTree = "<group>";
@@ -169,6 +455,80 @@
 			path = MEDiUITests;
 			sourceTree = "<group>";
 		};
+		F67AA00524D2BB6900EE3B8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6AEB6CC24D1831F00DC4B89 /* ARSessionController.swift */,
+				F67AA00324D2B69D00EE3B8D /* MaskTODO_1.swift */,
+				F6AEB6CA24D1828400DC4B89 /* Mask_TODO.storyboard */,
+				F63A0AAC24D535250027D52C /* ARNoseDetection.swift */,
+				F67B7FBA24D536D700F1B246 /* MaskTODO_NoseDetect.swift */,
+				F6299EFA24D5D41000935841 /* MaskTODO_Finish.swift */,
+				F6299F0224D5D90F00935841 /* MaskTODO_FinishAR.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6A5605724D845E500367FDA /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				F65C76C424DE96CA00F33215 /* Bandage */,
+				F65C76C324DE96C100F33215 /* HandSanitizer */,
+				F643F8A624D85422005DC6E9 /* Start.mp3 */,
+				F643F89924D85117005DC6E9 /* Mask */,
+				F6A5605E24D8469B00367FDA /* Home */,
+				F6A5605824D8461800367FDA /* Tutorial */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		F6A5605824D8461800367FDA /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5607224D84AB000367FDA /* finish.mp3 */,
+				F6A5607424D84AB900367FDA /* Tutorial_Start.mp3 */,
+				F6A5605F24D8469B00367FDA /* Tutorial_1.mp3 */,
+				F6A5605924D8468500367FDA /* Tutorial_2.mp3 */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		F6A5605E24D8469B00367FDA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5607024D84AA300367FDA /* Home.mp3 */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F6AC765624C7E5FA00322A10 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				F6AC765724C7E61300322A10 /* Feedback.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		F6AEB68024D1526C00DC4B89 /* TO-DO */ = {
+			isa = PBXGroup;
+			children = (
+				F6AEB6CE24D1866A00DC4B89 /* Contents */,
+				F67AA00524D2BB6900EE3B8D /* View */,
+			);
+			path = "TO-DO";
+			sourceTree = "<group>";
+		};
+		F6AEB6CE24D1866A00DC4B89 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				F65A47AE24D2F3FA007C4A74 /* VirtualContent.swift */,
+				F6D07D8C24D2CD1F005036DE /* MaskRenderer.swift */,
+				F63A0AA824D5316A0027D52C /* NoseDetection.swift */,
+				F63A0AAA24D533440027D52C /* scaleImage.swift */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
 		F6D54FBB24B4D23600907A30 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,14 +541,61 @@
 		F6D54FC024B4D3F200907A30 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F642156E24ED275E000EACEB /* HOWTO.png */,
+				F642156D24ED2759000EACEB /* TODO.png */,
+				F60758E124DAD9F400BE61F2 /* Tutorial-1.png */,
+				F60758E024DAD9F000BE61F2 /* Tutorial-2.png */,
+				F60758DF24DAD9EC00BE61F2 /* Tutorial-3.png */,
+				F6299EFE24D5D87C00935841 /* cute_baby.png */,
+				F6299EF824D5C42D00935841 /* arrow_up.gif */,
 				F65445A824BB758500B05682 /* shopping-cart.png */,
 				F65445A724BB758500B05682 /* sun.png */,
-				F6D54FC324B4D40A00907A30 /* clock.png */,
 				F6D54FC124B4D40A00907A30 /* kids_1.png */,
 				F6D54FC224B4D40A00907A30 /* kids_2.png */,
-				F65445A524B83CCF00B05682 /* Thermometer.png */,
+				F6D5CF1024BD96B100ABC036 /* ic_bandage.png */,
+				F6C8F3BD24C02D0600F04F01 /* ic_buyPromote.png */,
+				F6D5CF1124BD96B100ABC036 /* ic_handsanitizer.png */,
+				F6D5CF1224BD96B100ABC036 /* ic_mask.png */,
+				F6D5CF0F24BD96B100ABC036 /* ic_thermometer.png */,
+				F68DB58E24C5736C00E6F1E2 /* ic_handsanitizer_large.png */,
+				F6AC765224C7E43C00322A10 /* ic_heart.png */,
+				F6AC765424C7E4D000322A10 /* bg_heart.png */,
+				F6B855B624D0500400FA2E5B /* ic_kakaopay.png */,
+				F6AC765924C7E8B400322A10 /* ic_bad.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		F6D5CF0D24BD935300ABC036 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F654459D24B8307200B05682 /* Tutorial_Finish.swift */,
+				F6D54FC324B4D40A00907A30 /* clock.png */,
+				F654459B24B82EBE00B05682 /* Tutorial_2.swift */,
+				F672F79924B018E40050DA25 /* Tutorial_Start.swift */,
+				F6D5CF1B24BDA76B00ABC036 /* Tutorial_1.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		F6D5CF0E24BD937700ABC036 /* Thermometer */ = {
+			isa = PBXGroup;
+			children = (
+				F65445A324B83C1C00B05682 /* Thermometer_start.swift */,
+				F6D5CF2024BDC26500ABC036 /* Thermometer_select.swift */,
+			);
+			path = Thermometer;
+			sourceTree = "<group>";
+		};
+		F6D5CF1D24BDB26F00ABC036 /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				F6AEB68024D1526C00DC4B89 /* TO-DO */,
+				F667B53E24BEDD50006E8B3F /* How-TO */,
+				F6D5CF1E24BDB27C00ABC036 /* Mask_start.swift */,
+				F667B53C24BEDC4F006E8B3F /* Mask_select.swift */,
+			);
+			path = Mask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +605,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F672F7BC24B018E50050DA25 /* Build configuration list for PBXNativeTarget "MEDi" */;
 			buildPhases = (
+				EB1F838D4ADA44D092067277 /* [CP] Check Pods Manifest.lock */,
 				F672F78E24B018E40050DA25 /* Sources */,
 				F672F78F24B018E40050DA25 /* Frameworks */,
 				F672F79024B018E40050DA25 /* Resources */,
+				62ED505039562D395C29F6DF /* [CP] Embed Pods Frameworks */,
+				0B134EDEFA706E96437B0EEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +625,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F672F7BF24B018E50050DA25 /* Build configuration list for PBXNativeTarget "MEDiTests" */;
 			buildPhases = (
+				076F822922200CFA46EC40B1 /* [CP] Check Pods Manifest.lock */,
 				F672F7A424B018E50050DA25 /* Sources */,
 				F672F7A524B018E50050DA25 /* Frameworks */,
 				F672F7A624B018E50050DA25 /* Resources */,
@@ -233,9 +644,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F672F7C224B018E50050DA25 /* Build configuration list for PBXNativeTarget "MEDiUITests" */;
 			buildPhases = (
+				B1CA99F634194C1626CD6FE0 /* [CP] Check Pods Manifest.lock */,
 				F672F7AF24B018E50050DA25 /* Sources */,
 				F672F7B024B018E50050DA25 /* Frameworks */,
 				F672F7B124B018E50050DA25 /* Resources */,
+				5C6ED6DFC14CE19D93B84142 /* [CP] Embed Pods Frameworks */,
+				17C280FB093CC34B60275B0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +673,7 @@
 				TargetAttributes = {
 					F672F79124B018E40050DA25 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1160;
 					};
 					F672F7A724B018E50050DA25 = {
 						CreatedOnToolsVersion = 11.5;
@@ -295,17 +710,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60758E324DAD9F400BE61F2 /* Tutorial-2.png in Resources */,
+				F6D5CF1424BD96B100ABC036 /* ic_bandage.png in Resources */,
+				F643F8A524D8534D005DC6E9 /* retry.mp3 in Resources */,
 				F6D54FC624B4D40A00907A30 /* clock.png in Resources */,
+				F6B855B724D0500400FA2E5B /* ic_kakaopay.png in Resources */,
+				F6A5606024D8469B00367FDA /* Tutorial_2.mp3 in Resources */,
 				F6D54FC524B4D40A00907A30 /* kids_2.png in Resources */,
+				F6299EFF24D5D87C00935841 /* cute_baby.png in Resources */,
 				F65445AA24BB758500B05682 /* shopping-cart.png in Resources */,
+				F6A5607324D84AB000367FDA /* finish.mp3 in Resources */,
 				F65445A924BB758500B05682 /* sun.png in Resources */,
+				F6C8F3BE24C02D0600F04F01 /* ic_buyPromote.png in Resources */,
 				F672F7A224B018E50050DA25 /* LaunchScreen.storyboard in Resources */,
-				F65445A624B83CCF00B05682 /* Thermometer.png in Resources */,
+				F6AEB6CB24D1828400DC4B89 /* Mask_TODO.storyboard in Resources */,
 				F672F79F24B018E50050DA25 /* Preview Assets.xcassets in Resources */,
 				F6D54FBE24B4D24400907A30 /* maplestory_bold.otf in Resources */,
+				F6740B9B24C35A2400FE5EA8 /* GoogleService-Info.plist in Resources */,
+				F643F8A324D852CF005DC6E9 /* MaskTODO_3.mp3 in Resources */,
+				F643F89B24D85149005DC6E9 /* mask_intro.mp3 in Resources */,
+				F60758E424DAD9F400BE61F2 /* Tutorial-1.png in Resources */,
+				F6AC765324C7E43C00322A10 /* ic_heart.png in Resources */,
+				F6D5CF1524BD96B100ABC036 /* ic_handsanitizer.png in Resources */,
+				F6A5607524D84AB900367FDA /* Tutorial_Start.mp3 in Resources */,
+				F6AEB68524D1574300DC4B89 /* Models.scnassets in Resources */,
+				F6299EF924D5C42D00935841 /* arrow_up.gif in Resources */,
+				F642157024ED275E000EACEB /* HOWTO.png in Resources */,
+				F6AC765524C7E4D000322A10 /* bg_heart.png in Resources */,
 				F6D54FBF24B4D24700907A30 /* maplestory_light.otf in Resources */,
+				F6A5606524D8469B00367FDA /* Tutorial_1.mp3 in Resources */,
+				F65C76C824DE976900F33215 /* Intro_HandSanitizer.mp3 in Resources */,
+				F65C76C624DE974D00F33215 /* start_Bandage.mp3 in Resources */,
+				F68DB58F24C5736C00E6F1E2 /* ic_handsanitizer_large.png in Resources */,
+				F6D5CF1624BD96B100ABC036 /* ic_mask.png in Resources */,
+				F6A5607124D84AA300367FDA /* Home.mp3 in Resources */,
+				F643F8A724D85422005DC6E9 /* Start.mp3 in Resources */,
+				F6D5CF1324BD96B100ABC036 /* ic_thermometer.png in Resources */,
+				F643F8A124D852CF005DC6E9 /* maskTODO_1.mp3 in Resources */,
 				F6D54FC424B4D40A00907A30 /* kids_1.png in Resources */,
+				F60758E224DAD9F400BE61F2 /* Tutorial-3.png in Resources */,
+				F6AC765A24C7E8B400322A10 /* ic_bad.png in Resources */,
+				F642156F24ED275E000EACEB /* TODO.png in Resources */,
+				F643F8A224D852CF005DC6E9 /* mask_final.mp3 in Resources */,
 				F672F79C24B018E50050DA25 /* Assets.xcassets in Resources */,
+				F643F8A024D852CF005DC6E9 /* MaskTODO_2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,19 +773,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076F822922200CFA46EC40B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B134EDEFA706E96437B0EEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17C280FB093CC34B60275B0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6ED6DFC14CE19D93B84142 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDi-MEDiUITests/Pods-MEDi-MEDiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62ED505039562D395C29F6DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEDi/Pods-MEDi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1CA99F634194C1626CD6FE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDi-MEDiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1F838D4ADA44D092067277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEDi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F672F78E24B018E40050DA25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65445A424B83C1C00B05682 /* Thermometer.swift in Sources */,
+				F6471EB524C20ACB009AE8A6 /* Bandage_select.swift in Sources */,
+				F6C4695F24D482BB000DCC91 /* ImagePicker.swift in Sources */,
+				F6471EAF24C1FF49009AE8A6 /* PromoteForm.swift in Sources */,
+				F68E35D124D96EF700AAC74D /* checkCode.swift in Sources */,
+				F621BC4A24D80F9300AE135A /* UserRegister.swift in Sources */,
+				F61F4E8324C1C04D00AF2C9E /* Home_Pad.swift in Sources */,
+				F6589CBF24EBC3B20060E3D1 /* PrepareService.swift in Sources */,
+				F6471EB324C20AC3009AE8A6 /* Bandage_start.swift in Sources */,
+				F6AC765824C7E61300322A10 /* Feedback.swift in Sources */,
+				F60758DE24DACE2500BE61F2 /* showResult.swift in Sources */,
+				F61F4E8124C1C02400AF2C9E /* Home_Phone.swift in Sources */,
+				F69379B824C757B5000CD719 /* Buy_Success.swift in Sources */,
+				F65A47AF24D2F3FA007C4A74 /* VirtualContent.swift in Sources */,
+				F6471EB824C20ADE009AE8A6 /* HandSanitizer_start.swift in Sources */,
+				F65445A424B83C1C00B05682 /* Thermometer_start.swift in Sources */,
+				F6299EFB24D5D41000935841 /* MaskTODO_Finish.swift in Sources */,
 				F672F79624B018E40050DA25 /* AppDelegate.swift in Sources */,
 				F654459C24B82EBE00B05682 /* Tutorial_2.swift in Sources */,
+				F68E35CF24D9660800AAC74D /* ResetPassword.swift in Sources */,
+				F6B855BB24D07ED600FA2E5B /* checkPay.swift in Sources */,
+				F68DB59324C57BBD00E6F1E2 /* Buy_Person.swift in Sources */,
+				F667B53D24BEDC4F006E8B3F /* Mask_select.swift in Sources */,
+				F6A5606F24D8470300367FDA /* audioPlayer.swift in Sources */,
+				F68DB59124C57BB400E6F1E2 /* Buy_Family.swift in Sources */,
+				F6471EBA24C20AE8009AE8A6 /* HandSanitizer_select.swift in Sources */,
+				F6D07D8D24D2CD1F005036DE /* MaskRenderer.swift in Sources */,
 				F654459E24B8307200B05682 /* Tutorial_Finish.swift in Sources */,
+				F6AEB6CD24D1831F00DC4B89 /* ARSessionController.swift in Sources */,
 				F672F79824B018E40050DA25 /* SceneDelegate.swift in Sources */,
-				F672F79A24B018E40050DA25 /* ContentView.swift in Sources */,
-				F654459924B82C4C00B05682 /* Tutorial_1.swift in Sources */,
-				F65445A024B8310D00B05682 /* Home.swift in Sources */,
+				F63A0AAB24D533440027D52C /* scaleImage.swift in Sources */,
+				F672F79A24B018E40050DA25 /* Tutorial_Start.swift in Sources */,
+				F68E35CD24D9594600AAC74D /* checkPayResult.swift in Sources */,
+				F63A0AA924D5316A0027D52C /* NoseDetection.swift in Sources */,
+				F6AC765C24C7EBF400322A10 /* KeyboardResponser.swift in Sources */,
+				F6D5CF1C24BDA76B00ABC036 /* Tutorial_1.swift in Sources */,
+				F63A0AAD24D535250027D52C /* ARNoseDetection.swift in Sources */,
+				F64D1A2F24DAF64D00461B8F /* getUserData.swift in Sources */,
+				F621BC4E24D80FB300AE135A /* saveUserData.swift in Sources */,
+				F6D5CF2124BDC26500ABC036 /* Thermometer_select.swift in Sources */,
+				F6D5CF1F24BDB27C00ABC036 /* Mask_start.swift in Sources */,
+				F6299F0324D5D90F00935841 /* MaskTODO_FinishAR.swift in Sources */,
+				F67AA00424D2B69D00EE3B8D /* MaskTODO_1.swift in Sources */,
+				F6D5CF2324BDC69000ABC036 /* Buy.swift in Sources */,
+				F63B97F724C96C85002728DC /* Buy_Cash.swift in Sources */,
+				F67B7FBB24D536D700F1B246 /* MaskTODO_NoseDetect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +1008,7 @@
 /* Begin XCBuildConfiguration section */
 		F672F7BA24B018E50050DA25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DB73F2D567CB7DC7DB7A53 /* Pods-MEDi.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -434,7 +1057,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -480,6 +1103,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -488,7 +1112,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -500,19 +1124,32 @@
 		};
 		F672F7BD24B018E50050DA25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DB73F2D567CB7DC7DB7A53 /* Pods-MEDi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MEDi/Preview Content\"";
 				DEVELOPMENT_TEAM = JLQKH6P6PL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MEDi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MEDi/Libraries",
+					"$(PROJECT_DIR)/Unity/Libraries",
+					"$(PROJECT_DIR)/Unity/Libraries/com.unity.xr.arkit/Runtime/iOS/Xcode1100",
+				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.jbnu.MEDi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -520,19 +1157,31 @@
 		};
 		F672F7BE24B018E50050DA25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51280670F136FA30BBA9411 /* Pods-MEDi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MEDi/Preview Content\"";
 				DEVELOPMENT_TEAM = JLQKH6P6PL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MEDi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MEDi/Libraries",
+					"$(PROJECT_DIR)/Unity/Libraries",
+					"$(PROJECT_DIR)/Unity/Libraries/com.unity.xr.arkit/Runtime/iOS/Xcode1100",
+				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.jbnu.MEDi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -540,6 +1189,7 @@
 		};
 		F672F7C024B018E50050DA25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DE74007603FF4620733F79 /* Pods-MEDiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +1212,7 @@
 		};
 		F672F7C124B018E50050DA25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A3FB8B2E682FA994F713D5 /* Pods-MEDiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +1235,7 @@
 		};
 		F672F7C324B018E50050DA25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6580BC13E03E8873E7A9B06A /* Pods-MEDi-MEDiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +1256,7 @@
 		};
 		F672F7C424B018E50050DA25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95A01DAB6C0167BB9F33623 /* Pods-MEDi-MEDiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

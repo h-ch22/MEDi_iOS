@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import Firebase
+import RxKakaoSDKCommon
+import KakaoSDKCommon
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        FirebaseApp.configure()
+        let storage = Storage.storage()
+        let db = Firestore.firestore()
+        
+        KakaoSDKCommon.initSDK(appKey: "1f8e5a1fed86ebb0e66ded84aa0fe553")
+        
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

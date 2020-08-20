@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>maplestory_bold.otf</string>
-		<string>maplestory_light.otf</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -20,11 +15,23 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>AR을 사용하기 위해 카메라 권한이 필요해요!</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>maplestory_bold.otf</string>
+		<string>maplestory_light.otf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -42,12 +49,69 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>open-favorites</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>밴드</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.mycompany.myapp.openfavorites</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>key1</key>
+				<string>value1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>open-favorites</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>손소독제</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.mycompany.myapp.openfavorites</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>key2</key>
+				<string>value2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>open-favorites</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>마스크</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.mycompany.myapp.openfavorites</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>key3</key>
+				<string>value3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>open-favorites</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>체온계</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.mycompany.myapp.openfavorites</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>key4</key>
+				<string>value4</string>
+			</dict>
+		</dict>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
